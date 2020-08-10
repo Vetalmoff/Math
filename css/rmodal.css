@@ -1,0 +1,77 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.0);
+    transition: background-color .5s ease-in ;
+}
+
+.modal-window {
+    width:  500px;
+    background: rgb(255, 255, 255);
+    transform: translateY(-300px);
+    transition: transform .5s ease-in;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.modal-window, .modal-overlay {
+    opacity: 0;
+    z-index: -1;
+}
+
+.rmodal.open .modal-overlay,
+.rmodal.open .modal-window {
+    z-index: 1100;
+    opacity: 1;
+
+}
+
+.rmodal.open .modal-overlay {
+
+     background: rgba(0, 0, 0, 0.5);
+}
+
+.rmodal.open .modal-window {
+    transform: translateY(200px);
+}
+
+.modal-close {
+    cursor: pointer;
+}
+
+.rmodal.hiding .modal-overlay,
+.rmodal.hiding .modal-window {
+    z-index: 1100;
+    opacity: 1;
+}
+
+.rmodal.hiding .modal-window {
+    transform: translateY(-300);
+}
+
+.rmodal.hiding .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.modal-body .right {
+    border-radius: 5px;
+    background-color: rgb(65, 236, 65);
+}
+
+.modal-body .wrong {
+    border-radius: 5px;
+    background-color: rgb(246, 29, 29);
+}
+
+.modal-body p {
+    padding: 5px;
+}

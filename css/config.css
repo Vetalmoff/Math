@@ -1,0 +1,122 @@
+body {
+    background-image: url(/Users/vitalii/Downloads/bush/bush.png);
+}
+
+.container {
+    max-width: 700px;
+    background-color: rgba(146, 220, 243, 0.7);
+    margin: auto;
+    border-radius: 5px;
+    border-color: royalblue;
+}
+
+  
+
+.main {
+    border: 2px solid royalblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+
+fieldset {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    text-align: left;
+}
+.containerConfig {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid royalblue;
+    display: none;
+    border-radius: 5px;
+
+}
+
+
+
+
+h1 {
+    margin: auto; 
+    padding: 20px;
+    text-align: center;
+}
+
+#saveConfig {
+    display: block;
+    margin: 20px;
+}
+
+#exitConfig {
+    display: block;
+    margin: 20px;
+}
+
+#example {
+    display: inline;
+}
+
+.containerResults {
+    border: 2px solid royalblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+ #specification {
+    color: blue;
+}
+
+#warning {
+    color: red;
+}
+
+#showConfig {
+    color: blue;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operations label:hover,
+.operations .checkbox:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.radio:hover {
+    cursor: pointer;
+}
+
+.description {
+    border: 2px solid royalblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+button {
+    border-radius: 5px;
+}
+
+#saveConfig {
+    border-radius: 5px;
+}
+
+.navbar {
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.col-sm-12 {
+    text-align: center;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cehck your knolidge from math</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="stylesheet" href="css/task.css">
+    <link rel="stylesheet" href="css/config.css">
+    <link rel="stylesheet" href="css/rmodal.css">
+
+
+
+</head>
+<body>
+    <h1></h1>
+
+
+    
+
+
+    <div class="container">
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
+            <a class="navbar-brand" href="#">Math</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#" id="configTask">Configuration <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="task">Task</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="statistic">Show statistic</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="description">Description</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+
+
+        <div class="containerConfig">
+            <h1>Configuration</h1>
+            <form action="" name="config">
+
+                <h3 id="warning"></h3>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <fieldset class="labelsForOperations">
+                            <legend>Input numbers</legend>
+                            <p><label for="from">Min number</label></p>
+                            <p><input type="number" id="from" required></p>
+                            <p><label for="to">Max number</label></p>
+                            <p><input type="number" id="to" required></p>
+                        </fieldset>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <fieldset class="operations">
+                            <legend>Choose operation</legend>
+                            <p><label><input type="checkbox" class="checkbox" id="addition" value="+"> Addition</label></p>
+                            <p><label><input type="checkbox" class="checkbox" id="substruction" value="-"> Substruction</label></p>
+                            <p><label><input type="checkbox" class="checkbox" id="multiply" value="*"> Multiply</label></p>
+                            <p><label><input type="checkbox" class="checkbox" id="divide" value="/">  Divide</label></p>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <footer>
+                    <input type="submit" class="btn-primary" value="Save config" id="saveConfig">
+                    <button id="exitConfig" class="btn-danger">Close</button>
+                </footer>   
+            </form>
+        </div>
+
+
+
+
+        <div class="containerTask">
+            <div class="header">
+                <h1>Task</h1>
+            </div>
+            <div class="content">
+                <button id="generateEx">Generate example</button>
+                <div id="example"></div>
+                <input type="number" id="answer" placeholder="Write your answer">
+                <span id="specification"></span>
+            </div>
+            <div class="footer">
+                <button id="checkYourself" class="btn-primary">Check yourself</button>
+                <button id="exit" class="btn-danger">Close</button>
+
+            </div>
+        </div>
+
+
+        <div class="containerResults">
+            <p><span>Correct ones</span><div id="correct"></div></p>
+            <p><span>Wrong ones</span><div id="wrong"></div></p>
+            <p><button id="exitResult" class="btn-danger">Refresh ststistic</button></p>
+        </div>
+        
+
+        <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem soluta molestiae fugiat mollitia iusto est atque magni quisquam fugit exercitationem voluptate quis repudiandae deserunt, inventore totam, adipisci facilis sunt ipsam ratione. Commodi quod cumque animi iste esse consequatur facere voluptatem, nostrum officiis quia architecto optio quam totam cupiditate rem obcaecati dolores placeat! Commodi, aliquam tempore! Similique ad, autem aperiam accusamus itaque totam pariatur tempore minima? At architecto facere culpa consequuntur reprehenderit aut, cupiditate veritatis dignissimos porro eaque, ducimus nobis officia enim corporis eligendi, modi asperiores vel ipsum iure! Quae suscipit odit necessitatibus a temporibus rem quas dolorum adipisci assumenda magnam, est ullam provident nihil voluptas odio et ipsum exercitationem non, illo placeat sequi ea reprehenderit rerum. Incidunt mollitia, voluptatum inventore, iusto facere beatae alias optio ad saepe officiis ullam aut quae in libero, adipisci consectetur. Officiis dolor saepe, reprehenderit id officia quibusdam. Fugit possimus, eligendi libero ducimus dolores rem. Eaque quisquam fugit sequi ratione rerum asperiores, eum, sint corporis dicta cum fuga officia? Cum repudiandae eligendi, facilis at porro quasi beatae sit possimus nesciunt ullam nulla quaerat odio ipsa. Temporibus impedit, sint harum tenetur repellat accusamus ullam vero quo, vel excepturi nemo. Veritatis harum est cupiditate! Corrupti cumque ex similique a, vel ut consectetur nesciunt et officia eligendi fuga fugit earum consequuntur aliquid ea illo doloribus recusandae magni corporis incidunt eius! A excepturi, sapiente harum debitis obcaecati laborum saepe incidunt tempore. Doloribus quibusdam optio quis deserunt dolor hic exercitationem consectetur ducimus consequatur, earum asperiores aspernatur architecto? Molestiae enim cumque vel atque ipsum, magni accusamus! Tempore, consequatur tempora magni ullam corrupti cupiditate fugit numquam, at officia doloremque unde ea deserunt. Quam ab ut culpa. Qui sed hic minus soluta distinctio cumque, aspernatur consectetur, incidunt numquam placeat nemo optio labore sapiente quo reiciendis. Dignissimos, excepturi alias! Dolorum voluptatem ducimus, quidem temporibus nam autem quaerat possimus pariatur dolorem nemo error neque, ratione id laudantium voluptatum aliquam iure, sunt nihil. Dignissimos, sed explicabo commodi excepturi obcaecati quod architecto facere aliquid. Culpa amet libero nobis omnis doloribus. Odit neque illum reprehenderit facilis doloremque placeat voluptate harum voluptatum dolorem! Debitis neque dignissimos soluta sed reiciendis alias consequatur labore dolore culpa vitae doloribus veritatis eum nulla commodi harum vel et, recusandae itaque incidunt. Libero ad iste exercitationem laborum quis aspernatur ea odit pariatur est neque inventore id autem ipsum ratione veniam adipisci sapiente rem quasi, asperiores quo. Incidunt suscipit deserunt natus non illo, ipsa quae? Veniam cum excepturi libero ullam ipsum quod, asperiores molestias repudiandae, explicabo, blanditiis eligendi voluptatem autem molestiae inventore iusto necessitatibus velit. Quod ut enim repellat inventore, ipsa, impedit illo delectus unde, debitis dignissimos ex explicabo maxime voluptate itaque accusantium pariatur dolores est! Consectetur consequatur blanditiis molestiae saepe! Neque libero accusamus, magni nemo natus numquam corrupti eum cumque facilis provident similique sapiente, ratione obcaecati ad error quas quia. At perferendis, quibusdam magnam expedita iusto vel laudantium animi! Ipsa accusamus consequuntur nihil quis amet assumenda eligendi reprehenderit, beatae distinctio ea exercitationem molestiae pariatur, nulla cum sint blanditiis quos magnam veniam. Magnam reprehenderit qui voluptatum natus aut, repudiandae molestiae nostrum voluptates labore dignissimos! Ipsa reprehenderit dolorum animi adipisci incidunt ullam, laudantium recusandae est numquam maiores eaque possimus minus repellat eum provident quam et expedita nam illo natus blanditiis voluptas? Labore voluptatibus accusamus nemo sequi animi officiis. Fugit a nostrum debitis itaque, ab ex nemo id accusantium perferendis ad pariatur ea cumque voluptatibus ipsam, praesentium sequi expedita quasi cupiditate? Culpa incidunt sit minus molestiae assumenda possimus quia debitis error labore quas tempora rem ipsam obcaecati quaerat vero ex, voluptatem perspiciatis itaque asperiores. Error magni magnam eum aperiam alias optio a? Cupiditate aliquid culpa optio beatae at necessitatibus pariatur deleniti cumque itaque eligendi odio voluptatem et ducimus voluptate, voluptatibus iure reprehenderit dolore odit consequatur eius. Nesciunt possimus nisi accusamus eius tenetur saepe in beatae assumenda quaerat quo debitis nemo, quisquam pariatur illum? Nam obcaecati eveniet tempora exercitationem eaque vitae facilis illum consequuntur nobis atque temporibus et quos voluptas dolore praesentium eligendi, officia dolorum veniam fugit iure. Esse itaque, veniam cupiditate dolorum atque expedita repudiandae eligendi consectetur magni explicabo. Doloremque nobis cumque mollitia ullam nostrum earum labore error facilis reprehenderit excepturi, tenetur voluptas debitis ipsam exercitationem explicabo? Optio dicta culpa nihil et ut deserunt sed atque dolor unde, cupiditate doloremque quaerat a delectus doloribus sit quos earum, nisi odit sunt omnis tenetur. Ducimus alias nisi voluptatem perferendis nulla in officiis error, qui, mollitia praesentium assumenda sed. Consequatur iusto, ex accusantium ab excepturi sit numquam necessitatibus, iure quo ad sapiente perferendis nihil illum nobis odit mollitia impedit autem veritatis tempora! Adipisci doloremque earum voluptatum, possimus perspiciatis laudantium, odio enim officia magni eum facere consequuntur id cupiditate fugit atque sit ratione! Ullam, vero maiores quidem, iste dolorem molestiae animi, adipisci quos aut consequuntur sequi ex! Nisi nulla ratione labore similique beatae. Temporibus iusto voluptate enim. Quis quibusdam dolor deleniti error consectetur, maxime et aliquid molestias blanditiis aperiam quam illo, id possimus accusamus est expedita commodi incidunt debitis tenetur. Accusamus ipsum et adipisci dolor velit ullam ea officiis perspiciatis modi cum dicta repudiandae in corporis similique, repellat distinctio quae consectetur, quo assumenda temporibus voluptatum molestias earum corrupti quos. Recusandae totam consequuntur hic impedit quo, exercitationem quae ut adipisci, inventore ad unde eligendi voluptatibus saepe earum, tempora aut corrupti magnam voluptas placeat illum? Qui cumque porro enim perspiciatis? Iure fuga aspernatur nesciunt at, consequatur eius dolorum distinctio quos molestiae. Tenetur culpa aspernatur minima possimus, voluptatum et cupiditate? Officiis eveniet nemo quibusdam hic optio libero tempore corrupti unde ducimus, enim, officia voluptate, labore pariatur aperiam ratione dolor dolorem saepe illo et sed. Iste ut unde eum alias similique. At harum fugiat suscipit. Sed quos autem repudiandae adipisci rem. Reiciendis ea velit placeat praesentium consectetur minus ipsa illo suscipit excepturi aliquid qui, accusantium quod cum distinctio consequatur odio quasi quis incidunt minima, dolor blanditiis obcaecati. Minus quibusdam saepe praesentium? Saepe, porro, ipsam qui quae nesciunt eius molestiae sit possimus corrupti voluptate dolor. Velit, aliquam? Doloribus beatae eius iure! Nostrum, beatae aliquid, et iste assumenda possimus nisi saepe alias laudantium repellendus doloribus porro praesentium cupiditate quia!        
+        </div>
+
+    </div>
+    <script src="js/base.js"></script>
+    <script src="js/modalResult.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
